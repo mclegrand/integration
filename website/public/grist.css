@@ -1,0 +1,131 @@
+@import url("@gouvfr-lasuite/integration/dist/css/gaufre.css");
+
+:root {
+  /* logo */
+  --icon-GristLogo: url("ui-icons/Logo/logo.svg") !important;
+  --grist-logo-bg: #ffffff !important;
+  --grist-logo-size: 22px 22px !important;
+
+  /* colors */
+  --grist-color-light-grey: #f6f6f6 !important;
+  --grist-color-medium-grey: #dddddd99 !important;
+  --grist-color-medium-grey-opaque: #e5e5e5 !important;
+  --grist-color-dark-grey: #dddddd !important;
+  --grist-color-light: #ffffff !important;
+  --grist-color-dark: #2f2f2f !important;
+  --grist-color-dark-bg: #2f2f2f !important;
+  --grist-color-slate: #929292 !important;
+  --grist-color-light-green: #000091 !important;
+  --grist-color-dark-green: #2323ff !important;
+  --grist-color-darker-green: #2323ff !important;
+  --grist-color-lighter-green: #cacafb !important;
+  --grist-color-lighter-blue: #0078f3 !important;
+  --grist-color-light-blue: #0063cb !important;
+  --grist-color-cursor: #000091 !important;
+  --grist-color-selection: rgba(137,137,243,0.15) !important;
+  --grist-color-selection-opaque: #ececfe !important;
+  --grist-color-selection-darker-opaque: #e3e3fd !important;
+  --grist-color-inactive-cursor: #cacafb !important;
+  --grist-color-hover: #cecece !important;
+  --grist-color-error: #d64d00 !important;
+  --grist-color-warning: #fea941 !important;
+  --grist-color-warning-bg: #dd962c !important;
+  --grist-color-backdrop: #3a3a3a !important;
+  --grist-label-text-bg: #ffffff !important;
+  --grist-label-active-bg: #f0f0f0 !important;
+  --grist-primary-fg: #000091 !important;
+  --grist-primary-fg-hover: #2323ff !important;
+  --grist-primary-bg: #ffffff !important;
+  --grist-control-bg: #ffffff !important;
+  --grist-control-fg: #000091 !important;
+  --grist-primary-fg-hover: #2323ff !important;
+  --grist-control-border: 1px solid #2323ff !important;
+  --grist-toast-bg: #040404 !important;
+
+  /* Custom loading spinner colors*/
+  --color-logo-row: #E1000F;   /* Red */
+  --color-logo-col: #000091;   /* Blue */
+  --color-logo-cell: #D9D9D9;  /* Gray */
+  --color-logo-bg: #FFFFFF;    /* White background */
+
+  /* Custom inputs tags colors*/
+  --grist-actual-cell-color: #6e6ef2 !important;
+  --accent-color: #6e6ef2 !important;
+
+  /* FIXME Remove when abstracted in grist code*/
+  --grist-theme-announcement-popup-fg: #000091 !important;
+  --grist-theme-announcement-popup-bg: #e3e3fd !important;
+}
+
+/* START Custom ACL colors */
+.test-rule-permissions [class*=deny] {
+  background-color: #ff0000;
+	background-image: linear-gradient(-45deg, #ff0000 14px, white 15px 16px, #ff0000 16px);
+  border-color: #ff0000;
+}
+
+.test-rule-permissions [class*=allow] {
+  background-color: #16b378;
+  border-color: #16b378;
+}
+/* END Custom ACL colors */
+
+/* START Custom document card in home page colors */
+.test-dm-public {
+  --icon-color: #cecece !important;
+}
+
+.test-dm-pinned-initials {
+  border-color: #cecece !important;
+}
+/* END Custom document card in home page colors */
+
+/* START Custom tooltip colors */
+.test-tooltip {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  color: #666666 !important;
+}
+
+.test-tooltip-close [style*=CrossSmall]{
+  background-color: #929292;
+}
+/* END Custom tooltip colors */
+
+/* START Custom Fullframe Card View Colors */
+.test-close-button {
+  --icon-color: #929292 !important;
+}
+
+.test-close-button:hover {
+  --icon-color: #cecece !important;
+}
+/* END Custom Fullframe Card View Colors */
+
+/* START Custom toast notification Colors */
+.test-notifier-toast-custom-action {
+  color:#cacafb !important;
+}
+/* END Custom toast notification Colors */
+
+/* START Custom home page images hue */
+/* Home page svgs*/
+[src*="webinars.svg"],
+[src*="help-center.svg"],
+.test-dm-pinned-initials + div{
+  filter: hue-rotate(93deg) saturate(20);
+}
+/* END Custom home page images hue */
+
+/* START logo beta at user PP position*/
+.test-dm-logo {
+  background-size: 100% !important;
+}
+/* END logo beta at user PP position*/
+
+/* START logo beta at grist ressources position */
+[style^="background-image: var(--icon-GristLogo)"] {
+  width: 48px !important;
+  height: 48px !important;
+}
+/* END logo beta at grist ressources position */
+
