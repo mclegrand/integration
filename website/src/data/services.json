@@ -1,4 +1,97 @@
 [
+
+  {
+    "id": "nextcloud",
+    "name": "Nextcloud",
+    "url": "https://nextcloud.r2.enst.fr/",
+    "tagline": "Un lieu sécurisé pour stocker vos données",
+    "homepageType": "email",
+    "entity": "R2",
+    "beta": false,
+    "enabled": true
+  },
+  {
+    "id": "overleaf",
+    "name": "Overleaf",
+    "url": "https://overleaf.enst.fr/",
+    "tagline": "Online LaTeX editor",
+    "homepageType": "email",
+    "entity": "R2",
+    "beta": false,
+    "enabled": true
+  },
+  {
+    "id": "grist",
+    "name": "Tableur collaboratif (Grist) - R2",
+    "url": "https://grist.r2.enst.fr/",
+    "tagline": "**Grist**, une feuille de calcul <br>flexible, moderne et open source <br>qui sort des cases.",
+    "homepageType": "proconnect",
+    "entity": "R2",
+    "beta": true,
+    "enabled": true
+  },
+  {
+    "id": "docs",
+    "name": "Docs R2",
+    "url": "https://docs.r2.enst.fr/",
+    "tagline": "Documents edition",
+    "homepageType": "proconnect",
+    "entity": "R2",
+    "beta": true,
+    "enabled": true
+  },
+  {
+    "id": "hedgedoc",
+    "name": "Hedgedoc",
+    "url": "https://hedgedoc.r2.enst.fr",
+    "tagline": "Markdown editor",
+    "homepageType": "email",
+    "entity": "R2",
+    "beta": false,
+    "enabled": true
+  },
+  {
+    "id": "bigbluebutton",
+    "name": "BigBlueButton",
+    "url": "https://digimedia1.r2.enst.fr",
+    "tagline": "Videoconferencing software",
+    "homepageType": "email",
+    "entity": "R2",
+    "beta": false,
+    "enabled": true
+  },
+  {
+    "id": "indico",
+    "name": "Indico",
+    "url": "https://indico.r2.enst.fr/",
+    "tagline": "Conference management",
+    "homepageType": "email",
+    "entity": "R2",
+    "beta": false,
+    "enabled": true
+  },
+  {
+    "id": "peertube",
+    "name": "Peertube",
+    "url": "https://peertube.r2.enst.fr/",
+    "tagline": "Video Hosting",
+    "homepageType": "email",
+    "entity": "R2",
+    "beta": false,
+    "enabled": true
+  },
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "id": "tchap",
     "name": "Tchap",
@@ -7,7 +100,7 @@
     "homepageType": "email",
     "entity": "Gouvernement",
     "beta": false,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "france-transfert",
@@ -17,7 +110,7 @@
     "homepageType": "custom",
     "entity": "Gouvernement",
     "beta": false,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "grist",
@@ -27,7 +120,7 @@
     "homepageType": "proconnect",
     "entity": "Gouvernement",
     "beta": true,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "docs",
@@ -37,7 +130,7 @@
     "homepageType": "proconnect",
     "entity": "Gouvernement",
     "beta": true,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "visio",
@@ -47,7 +140,7 @@
     "homepageType": "proconnect",
     "entity": "Gouvernement",
     "beta": true,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "resana",
@@ -57,7 +150,7 @@
     "homepageType": "email-or-proconnect",
     "entity": "Gouvernement",
     "beta": false,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "webinaire",
@@ -67,7 +160,7 @@
     "homepageType": "custom",
     "entity": "Gouvernement",
     "beta": false,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "demarches",
@@ -77,7 +170,7 @@
     "homepageType": "proconnect",
     "entity": "Gouvernement",
     "beta": false,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "rdv",
@@ -87,7 +180,7 @@
     "homepageType": "email",
     "entity": "Gouvernement",
     "beta": false,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "pad",
@@ -97,7 +190,7 @@
     "homepageType": "proconnect",
     "entity": "Gouvernement",
     "beta": false,
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "audioconf",
