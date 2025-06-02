@@ -97,7 +97,7 @@
     "homepageType": "proconnect",
     "entity": "Gouvernement",
     "beta": false,
-    "enabled": false
+    "enabled": true
   },
   {
     "id": "audioconf",
