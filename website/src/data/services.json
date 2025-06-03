@@ -27,7 +27,7 @@
     "tagline": "**Grist**, une feuille de calcul <br>flexible, moderne et open source <br>qui sort des cases.",
     "homepageType": "proconnect",
     "entity": "R2",
-    "beta": true,
+    "beta": false,
     "enabled": true
   },
   {
